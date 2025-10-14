@@ -53,22 +53,13 @@
 
 ---
 
-## 4. 🧩 Mnemonics
-- **B→N:** Booleans become Numbers.  
-- **O→P:** Objects become Primitives (`toString`/`valueOf`).  
-- **Empty array → empty string → 0.**  
-- **`null` ↔ `undefined` only.**  
-- **`NaN` = never equal.**
-
----
-
-## 5. ✅ When to Use `==` Intentionally
+## 4. ✅ When to Use `==` Intentionally
 - `if (x == null)` → checks for both `null` and `undefined`
 - When *explicitly* wanting JS coercion (rare)
 
 ---
 
-## 6. 🧰 Tips for Interviews
+## 5. 🧰 Tips for Interviews
 - Always explain coercion **step-by-step:**
   1. Compare types  
   2. Convert objects → primitive (if any)  
